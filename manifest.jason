@@ -1,0 +1,25 @@
+{
+ "package": "SendCmd",
+ "language": "python",
+ "author": "Moe",
+ "description": "Send command to device",
+ "farmware_manifest_version": "1.0.0",
+ "package_version": "1.0.0",
+ "farmbot_os_version_requirement": ">= 8.0.0",
+ "url": "https://raw.githubusercontent.com/MoeTheCoder/SendCmd/main/manifest.json",
+ "zip": "https://github.com/MoeTheCoder/SendCmd/archive/main.zip",
+ "executable": "python",
+ "args": "SendCmd-main/SendCmd.py",
+ "config": {
+  "1": {
+      "name": "deviceID",
+      "label": "Device ID",
+      "value": "enter device id"
+    }
+  ,"2": {
+      "name": "cmd",
+      "label": "Command",
+      "value": "enter command name"
+    }    
+ }
+}
