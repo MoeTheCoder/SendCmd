@@ -21,5 +21,10 @@
       "label": "Command",
       "value": "enter command name"
     }    
+  ,"3": {
+    "name": "param1",
+    "label": "Command parameter 1",
+    "value": "enter first command parameter"
+  } 
  }
 }
