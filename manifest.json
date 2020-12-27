@@ -24,7 +24,12 @@
   ,"3": {
     "name": "param1",
     "label": "Command parameter 1",
-    "value": "enter first command parameter"
+    "value": "first command parameter if required"
   } 
+  ,"4": {
+    "name": "param2",
+    "label": "Command parameter 2",
+    "value": "second command parameter if required"
+  }   
  }
 }
