@@ -14,6 +14,7 @@ cmd = get_config_value(farmware_name='SendCmd', config_name='cmd', value_type=st
 #param2 = get_config_value(farmware_name='SendCmd', config_name='param2', value_type=int)
 payload = {"DeviceName":deviceID, "CmdName":cmd, "Parameter1": param1, "Parameter2": param2}
 
+device.log('Sending cmd to device')
 resp = requests.post('https://hydrobotapi.azurewebsites.net/api/Hydrobot', json=payload, headers=headers)
 print(resp.text) 
 device.log('Finising SendCmd')
