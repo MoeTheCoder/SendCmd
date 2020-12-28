@@ -16,3 +16,4 @@ payload = {"DeviceName":deviceID, "CmdName":cmd, "Parameter1": param1, "Paramete
 
 #resp = requests.post('https://hydrobotapi.azurewebsites.net/api/Hydrobot', json=payload, headers=headers)
 #print(resp.text) 
+device.log('Finising SendCmd')
