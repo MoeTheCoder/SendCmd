@@ -12,21 +12,26 @@
  "args": "SendCmd-main/SendCmd.py",
  "config": {
   "1": {
-      "name": "deviceID",
-      "label": "Device ID",
-      "value": "enter device id"
+      "name": "botName",
+      "label": "Bot name",
+      "value": "enter bot name"
     }
-  ,"2": {
+  ,"3": {
+      "name": "dvice",
+      "label": "Device",
+      "value": "enter device name"
+    }
+  ,"3": {
       "name": "cmd",
       "label": "Command",
       "value": "enter command name"
     }    
-  ,"3": {
+  ,"4": {
     "name": "param1",
     "label": "Command parameter 1 (integers only)",
     "value": 0
   } 
-  ,"4": {
+  ,"5": {
     "name": "param2",
     "label": "Command parameter 2 (integers only)",
     "value": 0
